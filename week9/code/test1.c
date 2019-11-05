@@ -15,7 +15,7 @@ int main(int argc,char *argv[])
 	for(i=0;i<argc;i++)
 		printf("test1: %d : %s\n",i,argv[i]);
 
-	sleep(10);
+	sleep(1);
 	return 0;
 
 }
