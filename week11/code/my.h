@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <wait.h>
+#include <sys/types.h>
+#include <signal.h>
+#include <time.h>
+#include <sys/stat.h>
+#include <sys/param.h>
+void init_daemon(void);
