@@ -13,6 +13,7 @@
 #include <sys/time.h>
 #include <pthread.h>
 #define NUM 4
+#define LOOP 1000000
 struct sendval{
 	int n;
 	int s;
